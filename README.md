@@ -111,6 +111,14 @@ Some of the other key differences include that SQL databases are vertically scal
 
 ### Q12 - Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
 
+While there are many more than just two different sorting algorithms, the two that i’m going to explore further are Bubble Sort and Selection Sort.
+
+Bubble Sort is a very simplistic algorithm. How it works is that, starting at index position 0, it moves up 1 index position as it iterates through the list. As it iterates, it’s making a comparison of the adjacent numbers. If the number at index position i + 1 is less than (<) index position i, it will swap those numbers so that i + 1 is greater than (>) i. It will then iterate onto the next index position, and do the same thing. Once the algorithm has gone through the whole list, it will then start again at the start of the list and repeat this sequence, until it goes through the whole list without having to make any swaps. This is when we know that this particular list is sorted.
+
+Now looking at Selection Sort, it works in a slightly different way. Here, the original list is divided up into 2 parts - an unsorted part, and a sorted part. Initially the sorted part is empty, and every item in the list is placed into the unsorted part. You iterate through the whole unsorted part, until you’ve determined the smallest item by the end. Once this is identified, this item is placed in the left-most position of the sorted portion of the list. This process is repeated on the unsorted list to find the next smallest item, which is placed 1 to the right of the smallest item in the sorted list. This is then repeated, until eventually each smallest item has been placed into the sorted list, in order from smallest to the largest. This could also be done in reverse from largest to smallest.
+
+Looking at a comparison of the 2, while Bubble Sort is simple, it’s also very slow and considered to be impractical for most applications. It has a time complexity of O(n²). Similarly, selection sort also has a time complexity of O(n²). The reason for this is that in both scenarios, we have to go through the list n number of times to be able to complete the sorting. There are more efficient alternatives out there.
+
 ### Q13 - Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
 
 ### Q14 - Conduct research into a marketplace website (app) and answer the following parts: 
