@@ -34,3 +34,5 @@ How it works, is that the master branch is considered to be the source of truth 
 
 The workflow for creating a new feature would therefore look something like, firstly, creating a new branch. All work done on this feature is then pushed onto this branch for the time being. Others may also be working on this branch/feature at the same time, so it’s good practice to regularly pull and push updates to what you’ve done. Once it’s looking pretty solid, someone will create a Pull Request in order to have someone else review the code and get any feedback (perhaps from a Senior Developer or Team Lead). There may be some back and forth here, making some final tweaks to the submitted code. Once the PR has been accepted, the code then needs to be merged from the feature branch into the master branch and voila, we have a newly implemented feature for you!
 
+### Q5 - Provide an overview and description of a standard software testing process (e.g. manual testing)
+
