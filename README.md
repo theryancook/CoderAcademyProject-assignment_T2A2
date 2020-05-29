@@ -16,4 +16,15 @@ As the name suggests, SQLite is a very light weight database. What this means, i
 
 The main disadvantages are that it does not do well when handling a high volume of HTTP requests, and that the size of the database is almost always restricted to 2GB.
 
+### Q3 - Discuss the implementation of Agile project management methodology
+
+As you are surely aware, there are a couple of different options for us to go in terms of the methodology used to manage the project. Namely, we could go with either Waterfall or an Agile methodology. Taking into consideration the scope of the project, I propose that we’d move forward using an Agile project management methodology.
+
+There’s a couple of different reasons for this decision. Firstly, this enables us to keep our development very flexible. In my experience, the spec and the requirements from the client (yourself) may change over time, or need to be tweaked. Using Agile, we’ll have no issue to incorporate those new decisions into the development. Being flexible also helps us on our end. If we run into any roadblocks, we’re able to be creative and flexible in terms of the solution. This will help save time for both parties, as well as keeping the overall cost of the project down, ultimately saving you both time and money.
+
+Secondly, Agile will also let us be able to be more iterative, and present to you the software as it becomes available. You won’t need to wait for the entire project to be finished to be able to first have users test and see the product. Based on your feedback and consultation, we’ll then be able to make improvements and changes mid development, as well as be able to change development priorities around what you feel as though is most important.
+
+Thirdly, since we’ll be using fortnightly sprints, you’ll also have access to very current updates on the status of the project and whether time estimates are being adhered to. This will ensure we’re able to be very transparent about the progress and ultimate success of the project.
+
+
 
