@@ -141,13 +141,13 @@ Comparing the 2 different types of searches, there’s really 2 key differences.
 I chose the Marketplace website (app) 'Gumtree'
 #### a. List and describe the software used by the app.
 According to the website Stackshare, Gumtree uses the following software stack:
-* jQuery
-* NGNIX
-* React
-* Bootstrap
-* jQuery UI
-* Mondernizr
-* Amazon Cloudfront
+* jQuery - Javascript library
+* NGNIX - Web server
+* React - Javascript library for the front end
+* Bootstrap - CSS framework
+* jQuery UI - Javascript library for the front end
+* Mondernizr - Javascript library
+* Amazon Cloudfront - CDN offered by AWS
 
 ####  b. Describe the hardware used to host the app.
 Stackshare also reveals that Gumtree is hosted using Google Cloud Platform (GCP). It’s hard to determine specifically the hardware that GCP uses (beyond the general fact that it includes computers, hard disk drives, solid state drives and networking ), but what we do know is that there’s a range of distributed server locations, including here in Sydney.
