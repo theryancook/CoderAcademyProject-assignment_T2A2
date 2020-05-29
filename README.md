@@ -59,3 +59,10 @@ Authentication is another way in which we can protect both ourselves and the use
 
 ### Q8 - Research what your legal obligations are in relation to handling user data and how they can be met for the project
 
+The Australian Government has a detailed outline available online of legal obligations for handling user data. While it would be impractical to go through the whole list of requirements, i’ll highlight some key requirements and how these would be met for the Marketplace app.
+
+For error handling, sensitive information including system details, session identifiers and account information in error responses is to be withheld from error pages. For authentication and identity management, all passwords and authentication tokens are to be sent over an encrypted connection (for example, SSL). Temporary passwords (or links to temporary passwords) are an exception, which may be transmitted unencrypted. For file management, security-relevant data (for example, passwords & connection strings) are stored server-side rather than client-side. For session management, logout mechanisms must be available to users from all screens that are protected by authorisation, in order to terminate the associated session or connection.
+
+Rails has some of this functionality built in, and for what’s not available in Rails, other methods for following and implementing these guidelines will be followed.
+
+By following these guidelines, it saves both parties from any legal implications, as well as being a good foundation for the overall security of the application.
