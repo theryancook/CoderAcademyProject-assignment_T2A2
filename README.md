@@ -72,3 +72,16 @@ By following these guidelines, it saves both parties from any legal implications
 As the name suggests, relational databases are a type of database that stores data points that are related to one another. In a relational database, you have tables that store all the data. Each row in the table is a record with a unique identifier, known as a ‘key’. Since these tables are split up into rows and columns, combined with this unique ID, it’s easy to establish relationships with the data & it’s possible to reference these unique keys across many different data tables.  An important aspect of the structure itself, is that the data structures (the data tables, views & index) are totally separate from the physical storage structures. This means that database administrators are able to manage the physical storage of the data, without impacting any logical data.
 
 ### Q10 - Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
+
+When we’re referring to data integrity we’re not talking about data security or data quality, we’re looking at the consistency, the accuracy and the completeness of the data.
+
+Different types of data integrity in a relational database include entity integrity, referential integrity, domain integrity and user defined integrity. 
+
+For entity integrity, we’re ensuring that we do not have duplicates of data sitting across our database. This is achieved through the use of primary keys which are unique to each piece of data. 
+
+Referential integrity refers to how our data is manipulated in our database. By creating a set of rules about how data is stored, updated, referenced etc we’re able to keep a really clean and uniform database that we know is accurate. 
+
+Domain integrity is similar, but is more focused on the type of data that can be input. By setting a specific data field to only accept numbers for example, we can avoid false or incorrect data being put into our database. 
+
+User defined integrity refers to any other data integrity we implement, that we feel as though would assist us in our specific case. Since our marketplace app will be different to other Marketplace apps (and other apps in general), it would make sense to add in various extra measures beyond what we’ve discussed but make sense in our own unique context.
+
