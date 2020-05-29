@@ -85,3 +85,12 @@ Domain integrity is similar, but is more focused on the type of data that can be
 
 User defined integrity refers to any other data integrity we implement, that we feel as though would assist us in our specific case. Since our marketplace app will be different to other Marketplace apps (and other apps in general), it would make sense to add in various extra measures beyond what we’ve discussed but make sense in our own unique context.
 
+### Q11 - Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.
+
+To look at the ways in which data can be manipulated in a relational database model, it’s important to understand there are key differences between the 2 different database model types. 
+
+SQL is a commonly used language across relational databases. If you’re looking to make any changes to the data (adding, removing etc) you can write those commands using SQL. There are 3 main ways in which you can manipulate the data - you can change which data is being displayed, you can change how the data is being displayed, or you can modify the data itself. There are specific predefined values in SQL such as INSERT, UPDATE or DELETE which enable the user to interact with and modify the data. 
+
+In the other type of database, NoSQL (which are non-relational databases), there’s no specific query syntax. Instead of using tables, NoSQL databases may take the form of key-value, wide-column or graph (just to name a few). 
+
+Some of the other key differences include that SQL databases are vertically scalable, whereas NoSQL are horizontally scalable. SQL requires a predefined schema, whereas NoSQL uses a dynamic schema. SQL also requires specific database hardware.
