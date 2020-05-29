@@ -121,6 +121,14 @@ Looking at a comparison of the 2, while Bubble Sort is simple, it’s also very 
 
 ### Q13 - Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
 
+While there are many more than just 2 different search algorithms, the two that i’m going to explore further are Binary Search and Linear Search.
+
+Binary Search is a common search methodology. The key idea behind Binary Search is that you find the middle point of a sorted list. You then compare whether that middle number is higher or lower than the number we’re looking for, and if the middle number is higher for example, you can remove every single number to the right of that number in the list as the numbers on the right hand side are all going to be higher. Every iteration, you’re able to remove half of the numbers you’re searching through.  You repeat this process until you hit on the number you’re searching for. It’s important to note that the list must already be sorted before being able to use a Binary Search.
+
+Another type of search that you’re able to perform is a Linear Search. This is a very simplistic type of search. Starting at index position 0, you move through list 1 by 1, until you reach a point when the number you’re searching for is equal to the number in the list, or you reach the end. The list does not need to have any particular order for this type of search to work.
+
+Comparing the 2 different types of searches, there’s really 2 key differences. At each step in a Binary Search, we’re able to remove half of all possibilities. This means that the time complexity is going to be significantly lower than a linear search. A Binary Search has the time complexity of O(log n), whereas the time complexity of a linear search is O(n) (which carries a higher cost). The other big important difference is that in order to use a Binary Search algorithm, the data in the list needs to be sorted. You do not have that prerequisite for a Linear Search function, as it’ll iterate over every value regardless of whether it’s sorted or not.
+
 ### Q14 - Conduct research into a marketplace website (app) and answer the following parts: 
 ###  a. List and describe the software used by the app.
 ###  b. Describe the hardware used to host the app.
