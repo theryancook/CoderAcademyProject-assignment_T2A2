@@ -36,6 +36,20 @@ The workflow for creating a new feature would therefore look something like, fir
 
 ### Q5 - Provide an overview and description of a standard software testing process (e.g. manual testing)
 
+A typical software testing process can be broken down into 6 different elements - requirement analysis, test planning, test case development, environment setup, test execution and finally test cycle closure.
+
+Requirement analysis is the first phase, and involves going through the proposed requirements of the feature in order to determine the testable requirements. This process usually involves stakeholders across the business & the client themselves.
+
+Test planning is the logical next step. The QA manager (or other responsible person) develops a test plan, as well as a test strategy. This includes the approach, resource planning, tooling and documentation.
+
+Test case development involves the QA team writing the test cases. Testing may be able to be automated with scripts, or done manually by the QA team.
+
+As the name suggests, test environment setup includes installing the required software and/or hardware components to be able to complete the testing of the application. This environment itself is then also tested in order to verify it’s working as per requirements.
+
+Moving onto the test execution phase, this is where QA runs the test cases and reports any bugs that come up during this process. Bugs are passed onto the developers, who attempt to fix the bugs, and then the code is retested in the same environment to ensure they are fixed properly.
+
+The final part of the cycle is the test closure. This is an important aspect of the testing cycle where we reflect on what worked well, what didn’t and how we can improve the process in the future.
+
 ### Q6 - Discuss and analyse requirements related to information system security and how they relate to the project
 
 According to the Australian Attorney-General’s Office, there are 4 main requirements to take into consideration when you’re looking at information security. 
