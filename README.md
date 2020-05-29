@@ -66,3 +66,7 @@ For error handling, sensitive information including system details, session iden
 Rails has some of this functionality built in, and for what’s not available in Rails, other methods for following and implementing these guidelines will be followed.
 
 By following these guidelines, it saves both parties from any legal implications, as well as being a good foundation for the overall security of the application.
+
+### Q9 - Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.
+
+As the name suggests, relational databases are a type of database that stores data points that are related to one another. In a relational database, you have tables that store all the data. Each row in the table is a record with a unique identifier, known as a ‘key’. Since these tables are split up into rows and columns, combined with this unique ID, it’s easy to establish relationships with the data & it’s possible to reference these unique keys across many different data tables.  An important aspect of the structure itself, is that the data structures (the data tables, views & index) are totally separate from the physical storage structures. This means that database administrators are able to manage the physical storage of the data, without impacting any logical data.
