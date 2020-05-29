@@ -94,3 +94,16 @@ SQL is a commonly used language across relational databases. If you’re looking
 In the other type of database, NoSQL (which are non-relational databases), there’s no specific query syntax. Instead of using tables, NoSQL databases may take the form of key-value, wide-column or graph (just to name a few). 
 
 Some of the other key differences include that SQL databases are vertically scalable, whereas NoSQL are horizontally scalable. SQL requires a predefined schema, whereas NoSQL uses a dynamic schema. SQL also requires specific database hardware.
+
+### Q12 - Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+
+### Q13 - Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)
+
+### Q14 - Conduct research into a marketplace website (app) and answer the following parts: 
+###  a. List and describe the software used by the app.
+###  b. Describe the hardware used to host the app.
+###  c. Describe the interaction of technologies within the app
+###  d. Describe the way data is structured within the app
+###  e. Identify entities which must be tracked by the app
+###  f. Identify the relationships and associations between the entities you have identified in part (e)
+###  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
