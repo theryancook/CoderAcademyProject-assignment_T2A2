@@ -107,3 +107,17 @@ Some of the other key differences include that SQL databases are vertically scal
 ###  e. Identify entities which must be tracked by the app
 ###  f. Identify the relationships and associations between the entities you have identified in part (e)
 ###  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
+
+I chose the Marketplace website (app) 'Gumtree'
+#### a. List and describe the software used by the app.
+According to the website Stackshare, Gumtree uses the following software stack:
+* jQuery
+* NGNIX
+* React
+* Bootstrap
+* jQuery UI
+* Mondernizr
+* Amazon Cloudfront
+
+####  b. Describe the hardware used to host the app.
+Stackshare also reveals that Gumtree is hosted using Google Cloud Platform (GCP). It’s hard to determine specifically the hardware that GCP uses (beyond the general fact that it includes computers, hard disk drives, solid state drives and networking ), but what we do know is that there’s a range of distributed server locations, including here in Sydney.
