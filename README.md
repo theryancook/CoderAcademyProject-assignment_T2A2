@@ -36,3 +36,14 @@ The workflow for creating a new feature would therefore look something like, fir
 
 ### Q5 - Provide an overview and description of a standard software testing process (e.g. manual testing)
 
+### Q6 - Discuss and analyse requirements related to information system security and how they relate to the project
+
+According to the Australian Attorney-General’s Office, there are 4 main requirements to take into consideration when you’re looking at information security. 
+
+The first requirement is concerning sensitive and classified information. What this means is that we must identify what information we’re holding & collecting, then analyse the sensitivity of that data. Depending on those assessments, we’ll scope out and implement the appropriate controls for the Marketplace App. 
+
+The 2nd main requirement is access to information. This concerns how we plan to share information with relevant parties (namely, users). If any information is particularly sensitive, also ensuring that only people who need to see this information can do so. This could be managed in the app by implementing an identity management system, and only providing the minimum level of permissions necessary. 
+
+The third requirement is safeguarding information from cyber threats. This includes developing a strategy to respond to, and mitigate cyber attacks to the entity (app). This is done by following established best practices in the area. As an example for the Marketplace app, we would be backing up all data on a separate system so that if we are ever compromised (by ransomware for example), we can move straight onto the backup without impacting users. 
+
+Lastly, we must have robust ICT systems. This requirement means that it's imperative for strict security measures to be in place for all stages of development. There are industry standard guidelines to follow, and we plan to do so for the Marketplace app.
