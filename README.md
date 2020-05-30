@@ -167,4 +167,4 @@ The different entities that need to be tracked can be broadly separated out into
 * Products have one seller (User)
 
 ####  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
-![ERD](erd.jpg)
+![ERD](app/assets/images/erd.jpg)
