@@ -150,4 +150,8 @@ According to the website Stackshare, Gumtree uses the following software stack:
 * Amazon Cloudfront - CDN offered by AWS
 
 ####  b. Describe the hardware used to host the app.
-Stackshare also reveals that Gumtree is hosted using Google Cloud Platform (GCP). It’s hard to determine specifically the hardware that GCP uses (beyond the general fact that it includes computers, hard disk drives, solid state drives and networking ), but what we do know is that there’s a range of distributed server locations, including here in Sydney.
+Stackshare also reveals that Gumtree is hosted using Google Cloud Platform (GCP). It’s hard to determine specifically the hardware that GCP uses (beyond the general fact that it includes computers, hard disk drives, solid state drives and networking), but what we do know is that there’s a range of distributed server locations, including here in Sydney.
+
+####  c. Describe the interaction of technologies within the app
+Using the list of software and hardware provided so far - A user would firstly visit the website (app). The UI of the app, what users can see, would have in part been or wholly created using Bootstrap & jQuery UI. When the user clicks on the search bar, or uses any type of functionality, they would be interacting with Javascript written using the React framework & jQuery. Modernizr is also working in the background to make sure the browser supports all features and so the user has a seamless experience. All this information has to be hosted somewhere, and we know that Gumtree uses GCP. To make sure the site can handle increased usage of features and higher traffic at any time, NGINX is the software used on the web server. Finally, CloudFront is a CDN which ensures larger media files (images, videos etc) are cached somewhere locally for users around the world.
+
